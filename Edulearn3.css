@@ -1,0 +1,517 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Col Size */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* Heading  */
+
+section {
+    background-color: black;
+    color: white;
+    padding-top: 6px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headIcon {
+    color: grey;
+}
+
+.iconPadding {
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+.titleHeading {
+    padding: 25px 0 20px;
+}
+
+.iconColor {
+    color: red;
+}
+
+.title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+/* Nav Bar */
+
+.navbarItems {
+    margin-left: 10px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    color: red;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a.active {
+    color: red;
+}
+
+.navbar-inverse {
+    background-color: black;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background: white;
+}
+
+.headingText {
+    padding-top: 15px;
+}
+
+
+/* Section 1 */
+
+.section1 {
+    background: url('assets/study-01.jpeg') no-repeat;
+    background-size: cover;
+    height: 407px;
+    color: white;
+    text-align: center;
+}
+
+.section1 h1,
+.section1 h5 {
+    position: relative;
+    top: 110px;
+    text-align: center;
+}
+
+.section1 .btn {
+    background: transparent;
+    border: 1px solid red;
+    color: white;
+    position: relative;
+    top: 140px;
+    margin: 0 1% 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section1 .btn:hover {
+    background-color: red;
+}
+
+
+/* About Us */
+
+.about-us {
+    padding: 15px;
+    margin-left: 20px;
+    margin: 40px 0 40px;
+    text-align: left;
+}
+
+.about-us img {
+    padding: 5px;
+    margin-left: 25px;
+    height: 68%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Popular Courses */
+
+.popular-courses {
+    padding: 45px;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+}
+
+.popular-courses .about {
+    margin-left: 20px;
+    margin: 40px 0 40px;
+    text-align: left;
+}
+
+.popular-courses .course-card {
+    text-align: center;
+    border: 1px solid #c3c3c3;
+    padding: 2px;
+}
+
+.course-card img {
+    height: 70%;
+    width: 100%;
+}
+
+.course-card .course-card-btm {
+    background-color: #f0f0f0;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.course-card .vl {
+    border-left: 1px solid #b5b4b4;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.course-card-btm .vl {
+    background-color: #f0f0f0;
+    height: 55px;
+}
+
+.section-2 {
+    padding: 15px;
+    margin: 40px 0 40px;
+}
+
+.section-2 .sec2-heading {
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    background: url('assets/Audience-01.jpeg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 10px 0 10px;
+}
+
+.footer-content {
+    padding: 35px 0 20px;
+}
+
+.footer-title {
+    padding-top: 19px;
+}
+
+.footer-title :after {
+    height: 1px;
+    width: 50px;
+}
+
+footer div hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(198, 199, 199);
+}
+
+footer hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(72, 72, 72);
+}
+
+.footer-icons {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+
+footer a {
+    padding: 5px;
+    color: white;
+}
+
+footer a:hover {
+    color: red;
+}
+
+.form-group {
+    padding-top: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+form input {
+    padding-right: 4.6em;
+}
+
+form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4.4em;
+}
+
+.form-icon {
+    background-image: url('assets/arrow.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 218px;
+}
+
+.floating {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px;
+    margin: -100px auto 31px;
+    z-index: 111;
+}
+
+.endline {
+    padding: 10px;
+    text-align: center;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 100px;
+}
+
+
+/* Section 2 */
+
+.section-2 .card-img-overlay {
+    position: absolute;
+    top: 76%;
+    background-color: black;
+    opacity: 0.4;
+    height: 70px;
+    padding: 10px;
+    color: white;
+}
+
+.section-2 .card-deck {
+    padding: 10px 30px 0;
+    margin-top: 35px;
+}
+
+.section-2 .card :hover {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.text {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.form-button {
+    background-color: red;
+    border-radius: 5px;
+}
+
+
+/* hr tag style */
+
+.section-4 hr,
+.section-6 hr,
+.section-2 hr,
+.about-us hr,
+.section-3 hr,
+.popular-courses .about hr,
+.people-say hr,
+.publication-text hr,
+.section1 hr {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 4px solid rgb(245, 5, 5);
+}
+
+
+/* Section 3 */
+
+.section-3 {
+    background: url('assets/achievements-02.jpeg') no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.blocks {
+    border: 1px solid #3c3535;
+    margin: 10px 0;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.section-3 .col-3 {
+    margin-top: 38px;
+}
+
+
+/* Section 4 */
+
+.section-4 {
+    background: url('assets/achievements-02.jpeg') no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 4% 0 15%;
+    color: white;
+    margin: 15px 0 30px;
+}
+
+.section-4 .btn {
+    background-color: red;
+    color: white;
+    margin: 40px 0 1px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* Section 6: Our Publication */
+
+.section-6 {
+    background-color: white;
+    color: black;
+    margin: 2% 0 5%;
+    text-align: center;
+}
+
+.card-footer:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.img-text {
+    text-align: center;
+    margin: 7% 0 2%;
+}
+
+.publication .card {
+    background-color: antiquewhite;
+}
+
+.section-6 .card {
+    background-color: antiquewhite;
+}
+
+.publication-text {
+    text-align: left;
+}
+
+
+/* People Say */
+
+.people-say {
+    background: url('assets/library1-01.jpeg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10%;
+}
+
+.people-say-text {
+    color: white;
+    text-align: left;
+}
+
+.people-card {
+    background-color: white;
+    text-align: justify;
+    padding: 3%;
+}
+
+.left-quote,
+.people-say h4 {
+    text-align: left;
+}
+
+.right-quote {
+    text-align: right;
+}
+
+.people-card img {
+    border-radius: 50px;
+    height: 40%;
+    width: 30%;
+    position: absolute;
+    top: -23%;
+    right: 34%
+}
+
+
+/* media querie - till 768px*/
+
+@media screen and (max-width: 768px) {
+    .people-say {
+        padding: 20px;
+    }
+    .people-say p {
+        margin-bottom: 6%;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+}

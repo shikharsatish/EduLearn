@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Col size */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* Heading Section */
+
+header {
+    background-color: black;
+    color: white;
+    padding-top: 6px;
+    padding-left: 13rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headIcon {
+    color: grey;
+}
+
+.iconPadding {
+    padding-right: 5px;
+    margin-bottom: 20px;
+}
+
+.titleHeading {
+    padding: 25px 0 20px;
+}
+
+.iconColor {
+    color: red;
+}
+
+.title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+
+
+/* Nav Bar */
+
+.navbarItems {
+    margin-left: 10px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    color: red;
+}
+
+.nav-item .active {
+    color: red;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-inverse {
+    background-color: black;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background: white;
+}
+
+
+/* Title Section */
+
+.heading {
+    background-image: url('assets/color-pencil-01.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 3% 5% 9%;
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: -50px;
+    left: 200px;
+    font-weight: bold;
+}
+
+#contact-text {
+    color: red;
+}
+
+
+/* Footer */
+
+footer {
+    background: url('assets/Audience-01.jpeg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 10px 0 10px;
+}
+
+.footer-content {
+    padding: 35px 0 20px;
+}
+
+.footer-title {
+    padding-top: 19px;
+}
+
+.footer-title :after {
+    height: 1px;
+    width: 50px;
+}
+
+footer div hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(199, 198, 198);
+}
+
+footer hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(72, 72, 72);
+}
+
+.footer-icons {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+}
+
+footer a {
+    padding: 5px;
+    color: white;
+}
+
+footer a:hover {
+    color: red;
+}
+
+.sec-2 form {
+    border: 1px solid rgb(233, 233, 233);
+    padding: 25px;
+}
+
+.form-group {
+    padding-top: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+form input {
+    padding-right: 4.6em;
+}
+
+.form-icon {
+    background-image: url('assets/arrow.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 218px;
+}
+
+.floating {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px;
+    margin: -100px auto 31px;
+    z-index: 111;
+}
+
+.contact-block {
+    text-align: center;
+    padding: 10px 0 10px;
+    margin: 20px;
+}
+
+.float-block {
+    background: rgb(224, 224, 224);
+    margin: 10px 0 10px;
+    padding: 10px;
+}
+
+.float-block-middle {
+    background: #918e8e;
+}
+
+.endline {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* FORM */
+
+input[type="text"] {
+    background: rgb(236, 236, 236);
+}
+
+textarea {
+    resize: none;
+    background: rgb(236, 236, 236)!important;
+}
+
+.btn-danger {
+    background-color: red;
+    color: white;
+    width: 13%;
+}

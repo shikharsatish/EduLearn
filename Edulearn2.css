@@ -1,0 +1,374 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     overflow-x: hidden;
+ }
+ /* Col Size */
+ 
+ .col-1 {
+     width: 8.33%;
+ }
+ 
+ .col-2 {
+     width: 16.66%;
+ }
+ 
+ .col-3 {
+     width: 25%;
+ }
+ 
+ .col-4 {
+     width: 33.33%;
+ }
+ 
+ .col-5 {
+     width: 41.66%;
+ }
+ 
+ .col-6 {
+     width: 50%;
+ }
+ 
+ .col-7 {
+     width: 58.33%;
+ }
+ 
+ .col-8 {
+     width: 66.66%;
+ }
+ 
+ .col-9 {
+     width: 75%;
+ }
+ 
+ .col-10 {
+     width: 83.33%;
+ }
+ 
+ .col-11 {
+     width: 91.66%;
+ }
+ 
+ .col-12 {
+     width: 100%;
+ }
+ /* Topmost section */
+ 
+ section {
+     background-color: black;
+     color: white;
+     padding-top: 6px;
+     text-align: center;
+     font-family: 'Oswald', sans-serif;
+ }
+ 
+ .headIcon {
+     color: grey;
+     cursor: pointer;
+ }
+ 
+ .iconPadding {
+     padding-right: 5px;
+     margin-bottom: 20px;
+ }
+ 
+ .titleHeading {
+     padding: 25px 0 20px;
+ }
+ 
+ .iconColor {
+     color: red;
+ }
+ 
+ .title {
+     font-family: 'PT Sans Narrow', sans-serif;
+     font-weight: bold;
+     font-size: 3rem;
+     cursor: pointer;
+ }
+ 
+ .logo {
+     text-align: center;
+ }
+ /* Navigation Bar */
+ 
+ .navbarItems {
+     margin-left: 10px;
+     margin-right: 7px;
+     cursor: pointer;
+ }
+ 
+ .nav-item a:hover {
+     color: red;
+ }
+ 
+ .navbar a {
+     color: white;
+ }
+ 
+ .navbar a.active {
+     color: red;
+ }
+ 
+ .navbar-inverse {
+     background-color: black;
+     color: white;
+ }
+ 
+ .navbar-toggler-icon {
+     background-color: white;
+     background-image: url(data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000…p='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+ }
+ 
+ .headingText {
+     padding-top: 15px;
+     cursor: pointer;
+ }
+ /* Section 1 */
+ 
+ .section-1 {
+     background: url('assets/learn2.jpg') no-repeat;
+     background-size: cover;
+     height: 407px;
+     color: white;
+     text-align: right;
+     padding-right: 10px;
+ }
+ 
+ .section-1 h1,
+ .section-1 h5 {
+     position: relative;
+     top: 110px;
+     text-align: right;
+ }
+ 
+ .section-1 .btn {
+     background: transparent;
+     border: 1px solid red;
+     color: white;
+     position: relative;
+     top: 140px;
+     margin: 0 1% 0;
+     text-align: center;
+     cursor: pointer;
+ }
+ 
+ .section-1 .btn:hover {
+     background: red;
+ }
+ /* Section 2 */
+ 
+ .section-2 {
+     padding: 15px;
+ }
+ 
+ .section-2 .sec2-heading {
+     text-align: center;
+     padding: 5px;
+     margin-top: 5px;
+ }
+ /* Footer */
+ 
+ footer {
+     background: url('assets/Audience-01.jpeg') no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     color: white;
+     padding: 10px 0 10px;
+ }
+ 
+ .footer-content {
+     padding: 35px 0 20px;
+ }
+ 
+ .footer-title {
+     padding-top: 19px;
+ }
+ 
+ .footer-title :after {
+     height: 1px;
+     width: 50px;
+ }
+ 
+ footer div hr {
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     border: 0;
+     border-top: 1px solid rgba(199, 198, 198);
+ }
+ 
+ footer hr {
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     border: 0;
+     border-top: 1px solid rgba(72, 72, 72);
+ }
+ 
+ .footer-icons {
+     padding-top: 25px;
+     padding-bottom: 20px;
+     text-align: center;
+     color: red;
+     cursor: pointer;
+ }
+ 
+ footer a {
+     padding: 5px;
+     color: white;
+ }
+ 
+ footer a:hover {
+     color: red;
+ }
+ /* Email Submit */
+ 
+ .form-group {
+     padding-top: 20px;
+     display: inline-block;
+     position: relative;
+ }
+ 
+ form input {
+     padding-right: 4.6em;
+ }
+ 
+ .form-button {
+     background-color: red;
+     border-radius: 5px;
+ }
+ /* form button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 4.4em;
+        } */
+ 
+ .form-icon {
+     background-image: url('assets/arrow.jpg');
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position-x: 218px;
+ }
+ 
+ .floating {
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 10px 0 10px;
+     margin: -100px auto 31px;
+     z-index: 111;
+ }
+ 
+ .endline {
+     padding: 10px;
+     text-align: center;
+ }
+ /* .vl {
+            border-left: 2px solid white;
+            height: 100px;
+        } */
+ /* Our experts */
+ 
+ .card-deck {
+     margin: 3% 0 3%;
+ }
+ 
+ .card :hover {
+     background-color: rgb(236, 20, 20);
+     color: white;
+ }
+ /* Section 3 */
+ 
+ .section-3 {
+     background: url('assets/achievements-02.jpeg') no-repeat;
+     background-attachment: fixed;
+     color: white;
+     padding: 5%;
+     text-align: center;
+ }
+ 
+ .blocks {
+     border: 1px solid #3c3535;
+     margin: 10px 0;
+     padding: 25px;
+     cursor: pointer;
+ }
+ 
+ .section-3 .col-3,
+ .section-4 .col-3 {
+     margin-top: 38px;
+ }
+ 
+ .section-3 hr {
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     border: 0;
+     border-top: 4px solid rgb(245, 5, 5);
+ }
+ /* Section-4 */
+ 
+ .section-4 {
+     background-color: white;
+     color: black;
+     padding: 5%;
+     text-align: center;
+ }
+ 
+ .section-4 .blocks {
+     background-color: #f5f1f1;
+     border: 1px solid white;
+     margin: 20px 0;
+     padding: 25px;
+ }
+ 
+ .section-4 h2,
+ .section-4 h5 {
+     text-align: right;
+ }
+ 
+ .section-4 hr {
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     border: 0;
+     border-top: 4px solid rgb(245, 5, 5);
+     margin-right: 2rem;
+ }
+ /* Section 5 */
+ 
+ .section-5 {
+     background: url('assets/achievements-02.jpeg') no-repeat;
+     background-attachment: fixed;
+     text-align: center;
+     padding: 4% 0 15%;
+     color: white;
+     margin: 15px 0 30px;
+ }
+ 
+ .section-5 .btn {
+     background-color: red;
+     color: white;
+     margin: 40px 0 1px;
+     text-align: center;
+     cursor: pointer;
+     font-weight: bold;
+ }
+ 
+ .section-5 .btn:hover {
+     background: transparent;
+     border: 1px solid red;
+ }
+ /* media querie - till 768px*/
+ 
+ @media screen and (max-width: 768px) {
+     .people-say {
+         padding: 20px;
+     }
+     .people-say p {
+         margin-bottom: 6%;
+     }
+     .nav-link {
+         font-size: 14px;
+     }
+ }
